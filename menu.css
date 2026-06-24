@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Mystic Grill</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #8a6062;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h2 {
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        .menu-box {
+            display: inline-block;
+            background-color: #3c67a0;
+            padding: 30px 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            color: white;
+            font-size: 18px;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            background-color: white;
+            color: #8a6062;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>🍽 Our Menu</h2>
+
+    <div class="menu-box">
+        <ul>
+            <li>🫐 Blood Berry Juice</li>
+            <li>🍕 Pizza</li>
+            <li>🍔 Burger</li>
+            <li>🍗 Grilled Chicken</li>
+            <li>🥤 Soft Drinks</li>
+        </ul>
+    </div>
+
+    <br>
+
+    <a href="index.html">⬅ Back to Home</a>
+
+</body>
+</html>
