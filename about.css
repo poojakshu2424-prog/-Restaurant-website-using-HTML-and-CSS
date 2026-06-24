@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Mystic Grill</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f4ef;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h2 {
+            color: #8b0000;
+            margin-bottom: 20px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 60%;
+            background-color: #8ec8d9;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        td {
+            border: 1px solid #333;
+            padding: 12px;
+            font-size: 16px;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            background-color: #6bb8cf;
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 25px;
+        }
+
+        li {
+            background-color: #c56843;
+            color: white;
+            margin: 10px auto;
+            padding: 12px;
+            width: 40%;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            background-color: #8b0000;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #a50000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>About Mystic Grill</h2>
+
+    <table>
+        <tr>
+            <td>Restaurant Name</td>
+            <td>Mystic Grill</td>
+        </tr>
+        <tr>
+            <td>Speciality</td>
+            <td>Grilled Dishes & Blood Berry Juice</td>
+        </tr>
+        <tr>
+            <td>Experience</td>
+            <td>100+ Years</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>👨‍🍳 Experienced Chefs</li>
+        <li>🥗 Quality Ingredients</li>
+        <li>👨‍👩‍👧‍👦 Family Friendly</li>
+    </ul>
+
+    <a href="index.html">⬅ Back to Home</a>
+
+</body>
+</html>
