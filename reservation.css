@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Mystic Grill</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fffaf0;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h2 {
+            color: #8b0000;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: rgb(209, 236, 145);
+            display: inline-block;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            text-align: left;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #888;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #8b0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #a50000;
+        }
+
+        .home-btn {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #8b0000;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .home-btn:hover {
+            background-color: #a50000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>🍽️ Table Reservation</h2>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Phone:</label>
+        <input type="tel" placeholder="Enter your phone number" required>
+
+        <label>Date:</label>
+        <input type="date" required>
+
+        <label>Time:</label>
+        <input type="time" required>
+
+        <label>Guests:</label>
+        <input type="number" min="1" max="20" placeholder="Number of guests" required>
+
+        <input type="submit" value="Book Table">
+    </form>
+
+    <br>
+
+    <a href="index.html" class="home-btn">⬅ Back to Home</a>
+
+</body>
+</html>
